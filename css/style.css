@@ -4,6 +4,7 @@
 
 body {
   background: #FDD761;
+/*  background: #0D86FF;*/
   font-family: 'Lucida Sans Unicode', 'Arial', serif;
   color: white;
 }
@@ -65,7 +66,12 @@ a {
   display: block;
 }
 
-
+.left    { text-align: left; }
+.right   { text-align: right; }
+.center  { text-align: center; }
+.justify { text-align: justify; }
+.start   { text-align: start; }
+.end     { text-align: end; }
 
 /* HEADER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -91,7 +97,7 @@ header {
 }
 
 header {
-  background: url("https://unsplash.it/1080/720/?image=378") no-repeat fixed center / cover;
+  background: url("/images/SonneWolken.jpg") no-repeat fixed center / cover;
   text-align: center;
 }
 
@@ -159,12 +165,67 @@ nav li:nth-child(2n+1) a:after {
 }
 
 
+/* EINLEITUNG STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.einleitung {
+  background: url("/images/SonneWolken.jpg") no-repeat fixed center / cover;
+  color: black;
+}
+
+.einleitung .one-third, 
+.einleitung .two-thirds,
+.einleitung .one-half{
+  background: white;
+  background: rgba(255,255,255,.3);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.einleitung .one-third {
+  margin-top: 20px;
+}
+
+.einleitung a {
+  margin-top: 10px;
+}
+
+.einleitung ul {
+  margin-bottom:18px;
+}
+
+.einleitung h3:after, .contact h3:after {
+  border-color: black;
+}
+
+.about .center {
+  text-align: center;
+}
+
+.einleitung .bottom {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.einleitung .one-third a {
+  margin: 10px auto;
+  width: 50%;
+  display: block;
+} 
+
+.einleitung .two-thirds p:last-child {
+  margin-bottom: 0;
+}
+
+/* Ende EINLEITUNG STYLES
+-------------------------------------------------- */
+
 
 /* ABOUT STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .about {
-  background: url("https://unsplash.it/1080/720/?image=369") no-repeat fixed center / cover;
+  background: url("/images/Zweig.jpg") no-repeat fixed center / cover;
   color: black;
 }
 
