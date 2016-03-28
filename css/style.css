@@ -48,7 +48,7 @@ a {
   text-decoration: none;
   background: #fcca2f;
   font-size: 14px;
-  color: steelblue;
+  color: #525252;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
   -webkit-transition: all ease .3s;
           transition: all ease .3s;
@@ -175,7 +175,9 @@ nav li:nth-child(2n+1) a:after {
 
 .einleitung .one-third, 
 .einleitung .two-thirds,
-.einleitung .one-half{
+.einleitung .one-half,
+.einleitung .offset-by-two,
+.einleitung .offset-by-four{
   background: white;
   background: rgba(255,255,255,.3);
   padding: 10px;
@@ -217,6 +219,17 @@ nav li:nth-child(2n+1) a:after {
   margin-bottom: 0;
 }
 
+.einleitung .author a {
+    background: none;
+    color: #1C1C1C;
+    box-shadow:none;
+}
+
+.einleitung .author a:hover {
+    color: #000000;
+}
+
+
 /* Ende EINLEITUNG STYLES
 -------------------------------------------------- */
 
@@ -230,7 +243,10 @@ nav li:nth-child(2n+1) a:after {
 }
 
 .about .one-third, 
-.about .two-thirds {
+.about .two-thirds,
+.about .one-half,
+.about .offset-by-two,
+.about .offset-by-four{
   background: white;
   background: rgba(255,255,255,.3);
   padding: 10px;
@@ -352,7 +368,7 @@ nav li:nth-child(2n+1) a:after {
   }
 
   a {
-    box-shadow: 0 8px #f4ba04;
+    box-shadow: 0 8px #ff2200;
   }
 
   nav a {
