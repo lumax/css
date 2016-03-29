@@ -6,6 +6,8 @@
 function twoRandoms ($len)
 {
    $random1 = mt_rand(0,$len-1);
+   $random1 = mt_rand(0,$len-1);
+   $random1 = mt_rand(0,$len-1);
    $random2 = mt_rand(0,$len-1);
 
    if($random2 == $random1)
@@ -161,30 +163,26 @@ list ($index1, $index2) = twoRandoms($zitateLen);
 <!--CONTACT-->
 <section class="contact">
   <div class="container">
+<!--
     <div class="row">
       <div class="twelve columns">
 	<p></p>
       </div>
-    </div><!--end of .row-->
+    </div>
     <div class="row">
       <p></p>
-<!--
       <div class="twelve columns">
         <a href="#" class="btn block btn-blue">Mail me</a>
       </div>
+    </div>
 -->
-    </div><!--end of .row-->
     <div class="row">
       <div class="twelve columns">
-        <p class="creator"><a href="#">Impressum</a> | <a href="#">Disclaimer</a></p>
+	<p class="creator"> <a href="impressum.html">Impressum</a>   <a href="disclaimer.html">Disclaimer</a> </p>
       </div>
     </div><!--end of .row-->
   </div><!--end of .container-->
 </section>
-
-
-
-
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

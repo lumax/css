@@ -377,7 +377,6 @@ nav li:nth-child(2n+1) a:after {
     color: #000000;
 }
 
-
 /* MEDIA QUERIES STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -430,7 +429,7 @@ nav li:nth-child(2n+1) a:after {
 
   .contact .creator a {
     background: none;
-    color: #1C1C1C;
+    color: #A1BBCC;
     box-shadow:none;
 }
 
