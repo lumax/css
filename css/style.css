@@ -226,6 +226,7 @@ nav li:nth-child(2n+1) a:after {
 
 .einleitung .author a:hover {
     color: #000000;
+    box-shadow:none;
 }
 
 
@@ -286,6 +287,17 @@ nav li:nth-child(2n+1) a:after {
 .about .two-thirds p:last-child {
   margin-bottom: 0;
 }
+
+.about .author a {
+    background: none;
+    color: #1C1C1C;
+    box-shadow:none;
+}
+
+.about .author a:hover {
+      color: #000000;
+      box-shadow:none;
+  }
 
 
 
@@ -355,6 +367,15 @@ nav li:nth-child(2n+1) a:after {
     background: none;
 }
 
+.container .author a {
+    background: none;
+    color: #1C1C1C;
+    box-shadow:none;
+}
+
+.container .author a:hover {
+    color: #000000;
+}
 
 
 /* MEDIA QUERIES STYLES
